@@ -16,7 +16,7 @@
   foaf:givenname "Agon" ;
   foaf:family_name "Osmani" ;
   foaf:nick "Goni" ;
-  foaf:mbox_sha1sum "469f8e03f2593f3b03b9a0b7650fca7b35cee453" ;
+  foaf:mbox_sha1sum "254be8841f9322c10eaff42ad3c43a012d2bfeb3" ;
   foaf:phone <tel:077903350> ;
   foaf:schoolHomepage <https://finki.ukim.mk/> ;
   foaf:knows [
@@ -29,4 +29,9 @@
     foaf:name "Mato Nikolov" ;
     foaf:mbox_sha1sum "11a498a22b687837b5686f52c6b72f3801ffb229" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Teodora Perikj" ;
+    foaf:mbox_sha1sum "9ef2dcddd23fa97db1d0ee4d480b0eb035c2fc85" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/rwzmqg67vc6dp76/foaf.ttl?dl=1>
   ] .
