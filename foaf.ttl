@@ -1,0 +1,32 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Agon Osmani" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Agon" ;
+  foaf:family_name "Osmani" ;
+  foaf:nick "Goni" ;
+  foaf:mbox_sha1sum "431cc494e569b500b6d037227a296d309ed2fecd" ;
+  foaf:phone <tel:077903350> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Frosina Cvetovska" ;
+    foaf:mbox_sha1sum "b068ac84ea2d6cdb3e1360fa9301eff90f14b49e" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/frosinacvetkovska/WBS-FOAF-profile/main/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Mato Nikolov" ;
+    foaf:mbox_sha1sum "afb49eab1ffe4e07a1c5f72d313b35ec1763fc6b" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Mato-77/Foaf/master/foaf.ttl>
+  ] .
